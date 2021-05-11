@@ -99,7 +99,7 @@ public class Item
 		 output += "<td>" + itemPrice + "</td>"; 
 		 output += "<td>" + itemDesc + "</td>"; 
 		 // buttons
-		 output += "<td><input name='btnUpdate' type='button' value='Update' class=' btnUpdate btn btn-secondary'></td><td><form method='post' action='items.jsp'><input name='btnRemove' type='submit' value='Remove' class='btn btn-danger'><input name='hidItemIDDelete' type='hidden' value='" + itemID + "'>" + "</form></td></tr>"; 
+		 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'></td><td><form method='post' action='items.jsp'><input name='btnRemove' type='submit' value='Remove' class='btn btn-danger'><input name='hidItemIDDelete' type='hidden' value='" + itemID + "'>" + "</form></td></tr>"; 
 		 } 
 		 con.close(); 
 		 // Complete the html table
